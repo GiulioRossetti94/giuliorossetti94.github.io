@@ -14,7 +14,7 @@ My supervisors are [Cesare Robotti](https://cesarerobotti.com) and [Philippe Mue
 
 # Working papers
 - [Return-Based Anomalies in Corporate Bonds: Are They There?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4575879) with [Alex Dickerson](https://www.alexdickerson.com/home) and [Cesare Robotti](https://cesarerobotti.com) 
-- [On the statistical properties of tests of parameter restrictions in beta-pricing models with a large number of assets](https://www.cesarerobotti.com/wp-content/uploads/2023/01/ARR.pdf) with [Amedeo Andriollo](https://warwick.ac.uk/fac/soc/economics/staff/aandriollo/) and [Cesare Robotti](https://cesarerobotti.com) 
+- [On the statistical properties of tests of parameter restrictions in beta-pricing models with a large number of assets](https://www.cesarerobotti.com/wp-content/uploads/2023/01/ARR_statistical.pdf) with [Amedeo Andriollo](https://warwick.ac.uk/fac/soc/economics/staff/aandriollo/) and [Cesare Robotti](https://cesarerobotti.com) 
 
 
 # Work in progress
