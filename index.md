@@ -4,7 +4,7 @@ layout: default
 
 ## About me
 
-I am a PhD candidate in Finance and Econometrics at the University of Warwick -- [Warwick Business School](http://wbs.ac.uk/).
+I am a PhD candidate in Finance and Econometrics at the [University of Warwick -- Warwick Business School](http://wbs.ac.uk/).
 
 My research interests are in Empirical Asset Pricing and Financial Econometrics.
 
