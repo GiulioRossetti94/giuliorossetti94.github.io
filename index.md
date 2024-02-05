@@ -24,5 +24,6 @@ transaction-based bond prices and relying on ad hoc return winsorization. To add
 
 # Work in progress
 - **Bond return predictability and anchoring bias**
+  
 <sub>*We explore predictability in US Treasuries bonds and assess the forecast accuracy of different statistical methodologies used to extract information from a large panel of macroeconomic indicators. Finally, we show that deviations from past realizations of macroeconomic indicators do not help improve the accuracy of forecasts of excess bond returns in the US Treasury market. *</sub>
 
