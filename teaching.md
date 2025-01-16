@@ -39,7 +39,7 @@ permalink: /teaching/
     <td rowspan="2">Week 1</td>
     <td>Primer in Matrix Algebra</td>
     <td>
-    <a href="{{ site.baseurl }}/assets/slides/matrixalgebra.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Slides')">View Slides</a>
+    <a href="{{ site.baseurl }}/assets/slides/matrixalgebra_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Slides')">Slides</a>
     </td>
     <td>
     <!-- <a href="URL_TO_ANNOTATED_SLIDES_WEEK1_SET1" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Annotated Slides')">View Annotated Slides</a> -->
@@ -50,8 +50,9 @@ permalink: /teaching/
   <tr>
     <td>Seminar 1</td>
     <td>
-     <span>Slides</span>
-    <!-- <a href="URL_TO_SLIDES_WEEK1_SET2" target="_blank">View Slides</a> -->
+     <!-- <span>Slides</span> -->
+    <a href="{{ site.baseurl }}/assets/slides/week1_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Seminar 1')">Slides</a>
+    <a href="{{ site.baseurl }}/assets/slides/week1_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Seminar 1')">Slides</a>
     </td>
     <td>
     <span>Annotated Slides</span>
