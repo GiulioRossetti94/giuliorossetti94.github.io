@@ -44,21 +44,27 @@ permalink: /teaching/
     <td>
     <!-- <a href="URL_TO_ANNOTATED_SLIDES_WEEK1_SET1" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Annotated Slides')">View Annotated Slides</a> -->
     <span>Annotated Slides</span>
-
     </td>
   </tr>
-  <tr>
-    <td>Seminar 1</td>
-    <td>
-     <!-- <span>Slides</span> -->
-    <a href="{{ site.baseurl }}/assets/slides/week1_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Seminar 1')">Slides</a>
-    <a href="{{ site.baseurl }}/assets/slides/week1_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Seminar 1')">Slides</a>
-    </td>
-    <td>
+ <tr>
+  <td>Seminar 1</td>
+  <td>
+    <!-- Link to the PDF file -->
+    <a href="{{ site.baseurl }}/assets/slides/week1_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Seminar 1 PDF')">
+      Slides
+    </a><br>
+    <!-- Link to the Excel file -->
+    <a href="{{ site.baseurl }}/assets/slides/seminar1.xlsx" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Seminar 1 Excel')">
+      Excel
+    </a>
+  </td>
+  <td>
+    <!-- Annotated slides not yet available -->
     <span>Annotated Slides</span>
+    <!-- Uncomment when available -->
     <!-- <a href="URL_TO_ANNOTATED_SLIDES_WEEK1_SET2" target="_blank">View Annotated Slides</a> -->
-    </td>
-  </tr>
+  </td>
+</tr>
   <!-- <tr>
     <td rowspan="3">Week 2</td>
     <td>Linear Regression Basics</td>
