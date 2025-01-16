@@ -38,13 +38,25 @@ permalink: /teaching/
   <tr>
     <td rowspan="2">Week 1</td>
     <td>Primer in Matrix Algebra</td>
-    <td><a href="URL_TO_SLIDES_WEEK1_SET1" target="_blank">View Slides</a></td>
-    <td><a href="URL_TO_ANNOTATED_SLIDES_WEEK1_SET1" target="_blank">View Annotated Slides</a></td>
+    <td>
+    <a href="{{ site.baseurl }}/assets/slides/matrixalgebra.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Slides')">View Slides</a>
+    </td>
+    <td>
+    <!-- <a href="URL_TO_ANNOTATED_SLIDES_WEEK1_SET1" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Annotated Slides')">View Annotated Slides</a> -->
+    <span>Annotated Slides</span>
+
+    </td>
   </tr>
   <tr>
     <td>Seminar 1</td>
-    <td><a href="URL_TO_SLIDES_WEEK1_SET2" target="_blank">View Slides</a></td>
-    <td><a href="URL_TO_ANNOTATED_SLIDES_WEEK1_SET2" target="_blank">View Annotated Slides</a></td>
+    <td>
+     <span>Slides</span>
+    <!-- <a href="URL_TO_SLIDES_WEEK1_SET2" target="_blank">View Slides</a> -->
+    </td>
+    <td>
+    <span>Annotated Slides</span>
+    <!-- <a href="URL_TO_ANNOTATED_SLIDES_WEEK1_SET2" target="_blank">View Annotated Slides</a> -->
+    </td>
   </tr>
   <!-- <tr>
     <td rowspan="3">Week 2</td>

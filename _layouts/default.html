@@ -29,6 +29,20 @@
       gtag('config', '{{ site.google_analytics }}');
     </script>
     {% endif %}
+    <!-- Custom Scripts -->
+    <script>
+      function trackDownload(label) {
+        if (typeof gtag === 'function') {
+          gtag('event', 'download', {
+            event_category: 'Slides',
+            event_label: label,
+          });
+        } else {
+          console.log(`Download tracked: ${label}`);
+        }
+      }
+    </script>
+
   </head>
   <body>
     <div class="wrapper">
@@ -102,6 +116,7 @@
 
     <!-- Additional Scripts -->
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/teaching.js" | relative_url }}"></script>
     
     <!-- Track File Downloads -->
     <script>

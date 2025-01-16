@@ -408,3 +408,33 @@ footer {
   display: block;
   margin: 0 auto; /* Centers the image horizontally */
 }
+
+#slides-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+#slides-table th, #slides-table td {
+  border: 1px solid #ffffff;
+  padding: 8px;
+}
+
+#slides-table th {
+  background-color: #ffffff;
+  text-align: left;
+}
+
+#slides-table a {
+  color: #267CB9;
+  text-decoration: none;
+}
+
+#slides-table a:hover {
+  text-decoration: underline;
+}
+
+#slides-table a[style*="color: gray"] {
+  text-decoration: none;
+  cursor: default;
+}
