@@ -27,7 +27,7 @@ permalink: /teaching/
   <!-- Add rows for future weeks as needed 
 </table> -->
 
-
+**IB2B20 - Financial Econometrics**
 <table id="slides-table">
   <tr>
     <th>Week</th>
