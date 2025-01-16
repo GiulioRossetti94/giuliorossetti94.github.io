@@ -56,9 +56,8 @@ a:hover small {
 }
 
 .wrapper {
-  max-width: 95%; /* Use percentage instead of fixed width */
-  margin: 0 auto; /* Center the content */
-  padding: 10px; /* Add padding for smaller screens */
+  width:950px;
+  margin:0 auto;
 }
 
 blockquote {
@@ -298,12 +297,12 @@ footer {
 /* Top-Right Horizontal Navigation */
 .top-right-nav {
   position: flex; /* Keeps it fixed at the top-right */
-  // top: 0px;
+  top: 0px;
   right: 80px;
   z-index: 1000; /* Ensures it stays above other elements */
-  width: auto;
+  width: 100%;
   background-color: #ffffff;
-  padding: 0px 40px; /* Adds padding for a clean look */
+  padding: 30px 40px; /* Adds padding for a clean look */
   border-radius: 5px;
   // box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   font-size: 14px;
