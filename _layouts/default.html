@@ -5,51 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% seo %}
+    <!-- SEO Metadata -->
+    {% seo %}
+    <meta name="description" content="Personal website of Giulio Rossetti, Post-Doc Researcher at Warwick Business School.">
+    <meta name="keywords" content="Giulio Rossetti, Financial Econometrics, Warwick, Research, Teaching">
+    <meta name="author" content="Giulio Rossetti">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.baseurl }}/assets/img/profile.jpg">
+    <meta property="og:url" content="{{ site.github.url }}">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
+
+    <!-- Google Analytics 4 -->
+    {% if site.google_analytics %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.google_analytics }}');
+    </script>
+    {% endif %}
   </head>
   <body>
     <div class="wrapper">
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
-
         {% if site.logo %}
         <style>
           .profile {
             max-width: 100%;
             height: auto;
           }
-          </style>
-          <img src="{{site.logo | relative_url}}" alt="Logo" class = 'profile' />
+          .social-icons {
+            margin-top: 15px; /* Adds spacing above the icons */
+            display: flex;
+            justify-content: center;
+            gap: 10px; /* Adds spacing between icons */
+          }
+          .social-icons a img {
+            width: 30px; /* Adjust the size of the icons */
+            height: 30px;
+            border-radius: 50%; /* Optional: makes icons circular if they are not */
+          }
+        </style>
+        <img src="{{ site.baseurl }}{{ site.logo }}" alt="Logo" class="profile">
+        <div class="social-icons">
+          <!-- GitHub -->
+          <a href="https://github.com/GiulioRossetti94" target="_blank">
+            <img src="{{ site.baseurl }}/assets/img/githubicon.png" alt="GitHub">
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com/in/rossettigiulio" target="_blank">
+            <img src="{{ site.baseurl }}/assets/img/linkedinicon.png" alt="LinkedIn">
+          </a>
+          <!-- X (formerly Twitter) -->
+          <a href="https://x.com/gi_r94" target="_blank">
+            <img src="{{ site.baseurl }}/assets/img/xicon2.png" alt="X">
+          </a>
+        </div>
         {% endif %}
 
-        <p>{{site.description | default: site.github.project_tagline }}</p>
-
-	<p class="view">Finance and Econometrics PhD Candidate<br>WBS | University of Warwick</p>
-<!-- this is a comment >-->
-    <!-- <p class="view">  <a href="https://www.dropbox.com/scl/fi/5nsjbxsyjoykts0ckfmf8/CV-GR.pdf?rlkey=nu0kyhiz13cf6z6gg6i2re5vi&dl=0">CV</a> </p>  -->
-    <!--<p class="view"> <a href="www.google.com">Google Scholar</a> <br> <a href="link-to-cv">CV</a> </p> >--> 
-    <p class="view">  <a href="assets/pdf/CV-GR.pdf">CV</a> </p>
+        <p class="view">Post-Doc Researcher<br>WBS | University of Warwick</p>
+        <p class="view">
+          <a href="{{ '/assets/pdf/CV-GR.pdf' | relative_url }}" target="_blank">Download CV</a>
+        </p>
       </header>
+      
+      <nav class="top-right-nav">
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/research/' | relative_url }}">Research</a></li>
+          <li><a href="{{ '/teaching/' | relative_url }}">Teaching</a></li>
+          <li><a href="{{ '/data-code/' | relative_url }}">Data & Code</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Centered Page Title -->
+      <div class="page-title-container">
+        <h1 class="page-title">{{ page.title }}</h1>
+      </div>
+
       <section>
-
-      {{ content }}
-
+        {{ content }}
       </section>
+
+      <footer>
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+      </footer>
     </div>
+
+    <!-- Additional Scripts -->
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
+    
+    <!-- Track File Downloads -->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
+      document.addEventListener('DOMContentLoaded', function() {
+        const links = document.querySelectorAll('a');
+        links.forEach(link => {
+          const url = link.href;
+          if (url.match(/\.(pdf|pptx?|docx?|xlsx?|zip)$/i)) { // Match common file types
+            link.addEventListener('click', function() {
+              gtag('event', 'download', {
+                event_category: 'File',
+                event_label: url,
+                transport_type: 'beacon'
+              });
+            });
+          }
+        });
+      });
     </script>
-    {% endif %}
+
+    <!-- Track Social Media Clicks -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const socialLinks = document.querySelectorAll('.social-icons a');
+        socialLinks.forEach(link => {
+          link.addEventListener('click', function() {
+            gtag('event', 'social_click', {
+              event_category: 'Social',
+              event_label: link.href
+            });
+          });
+        });
+      });
+    </script>
   </body>
 </html>

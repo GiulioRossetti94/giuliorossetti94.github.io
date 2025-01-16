@@ -104,9 +104,32 @@ img {
   max-width:100%;
 }
 
+// header {
+//   text-align: center;
+//   // margin: 0 auto; /* Centers the header block horizontally */
+//   padding-left: 0; /* Remove left padding */
+//   margin-left: 0; /* Remove left margin */
+//   // padding: 20px; /* Adds padding around the header */
+//   // padding-left: 0%;
+//   width: 270px;
+//   max-width: 800px; /* Restricts the width of the header for a cleaner look */
+//   float:left;
+//   position:fixed;
+//   -webkit-font-smoothing:subpixel-antialiased;
+// }
 header {
-  width:270px;
+  text-align: center;
+  // margin: 0 auto; /* Centers the header block horizontally */
+  padding-left: 0; /* Remove left padding */
+  margin-left: 0; /* Remove left margin */
+  // padding: 20px; /* Adds padding around the header */
+  // padding-left: 0%;
+  width: 270px;
+  max-width: 800px; /* Restricts the width of the header for a cleaner look */
+  left: 200px; /* Position from the left */
+  top: 200px; /* Position from the top */
   float:left;
+
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
@@ -269,4 +292,119 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+/* Top-Right Horizontal Navigation */
+.top-right-nav {
+  position: fixed; /* Keeps it fixed at the top-right */
+  top: 0px;
+  right: 80px;
+  z-index: 1000; /* Ensures it stays above other elements */
+  width: 100%;
+  background-color: #ffffff;
+  padding: 30px 40px; /* Adds padding for a clean look */
+  border-radius: 5px;
+  // box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 22px;
+}
+
+.top-right-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Displays the items horizontally */
+  justify-content: flex-end; /* Aligns links to the right */
+  gap: 30px; /* Adds spacing between items */
+}
+
+.top-right-nav ul li {
+  margin: 0;
+}
+
+.top-right-nav ul li a {
+  text-decoration: none;
+  color: #267CB9; /* Matches the theme's link color */
+  font-weight: bold;
+}
+
+.top-right-nav ul li a:hover {
+  color: #069; /* Matches the hover color */
+  text-decoration: underline;
+}
+
+.wrapper {
+  padding-top: 60px; /* Adds padding to avoid overlap with nav */
+}
+
+// center the page title
+.page-title-container {
+  text-align: center; /* Center-aligns the container */
+  margin: 20px 20px; /* Adds vertical spacing */
+}
+
+.page-title {
+  font-size: 2em; /* Adjusts the font size */
+  color: #333; /* Title color */
+  font-weight: bold; /* Makes the title bold */
+  display: inline-block; /* Needed for the underline effect */
+  position: relative; /* Allows positioning of the underline */
+}
+
+.page-title::after {
+  content: ""; /* Adds an underline */
+  display: block;
+  width: 50px; /* Adjust the underline width */
+  height: 3px; /* Adjust the underline thickness */
+  background-color: #000; /* Color of the underline */
+  margin: 5px auto 0; /* Center the underline */
+}
+
+#teaching-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+#teaching-table th,
+#teaching-table td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ffffff;
+}
+
+#teaching-table th {
+  background-color: #ffffff;
+}
+
+#teaching-table td.course-name {
+  max-width: 300px; /* Adjust based on your layout; ~10px per character */
+  white-space: nowrap; /* Prevents wrapping */
+  overflow: hidden; /* Hides overflowing text */
+  text-overflow: ellipsis; /* Adds ellipsis (...) for truncated text */
+}
+
+#teaching-table th:first-child, 
+#teaching-table td:first-child {
+  width: 100px; /* Adjust for 'Code' column */
+}
+
+#teaching-table th:nth-child(2), 
+#teaching-table td:nth-child(2) {
+  width: 400px; /* Adjust for 'Course Name' column */
+}
+
+#teaching-table th:last-child, 
+#teaching-table td:last-child {
+  width: 100px; /* Adjust for 'Level' column */
+}
+
+// Circular Profile Picture
+.profile-picture {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Same as the width to make it a perfect circle */
+  border-radius: 50%; /* This makes the image circular */
+  object-fit: cover; /* Ensures the image scales properly within the circle */
+  border: 3px solid #ccc; /* Optional: Add a border around the circle */
+  display: block;
+  margin: 0 auto; /* Centers the image horizontally */
 }

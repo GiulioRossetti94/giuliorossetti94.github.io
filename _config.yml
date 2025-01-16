@@ -1,6 +1,12 @@
 theme: jekyll-theme-minimal
+logo: /assets/img/GRround.png
 title: Giulio Rossetti 
-description:
+description: ""
+baseurl: ""
+url: https://giuliorossetti94.github.io
+google_analytics: G-5PHQX8Q4JM
+
+markdown: kramdown
   
 show_downloads: true
 
