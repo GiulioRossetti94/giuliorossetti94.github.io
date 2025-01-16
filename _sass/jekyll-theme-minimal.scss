@@ -130,7 +130,7 @@ header {
   top: 200px; /* Position from the top */
   float:left;
 
-  position:fixed;
+  position:static;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -232,9 +232,9 @@ footer {
     width:auto;
   }
 
-  header {
-    padding-right:320px;
-  }
+  // header {
+  //   padding-right:320px;
+  // }
 
   section {
     border:1px solid #e5e5e5;
