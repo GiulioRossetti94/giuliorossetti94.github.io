@@ -301,7 +301,7 @@ footer {
   // top: 0px;
   right: 80px;
   z-index: 1000; /* Ensures it stays above other elements */
-  width: 100%;
+  width: auto;
   background-color: #ffffff;
   padding: 0px 40px; /* Adds padding for a clean look */
   border-radius: 5px;
@@ -318,9 +318,9 @@ footer {
   gap: 30px; /* Adds spacing between items */
 }
 
-// .top-right-nav ul li {
-//   margin: 0;
-// }
+.top-right-nav ul li {
+  margin: 0;
+}
 
 .top-right-nav ul li a {
   text-decoration: none;
