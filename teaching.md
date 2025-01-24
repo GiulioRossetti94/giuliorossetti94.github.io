@@ -65,6 +65,24 @@ permalink: /teaching/
     <!-- <a href="URL_TO_ANNOTATED_SLIDES_WEEK1_SET2" target="_blank">View Annotated Slides</a> -->
   </td>
 </tr>
+
+  </tr>
+  <tr>
+    <td rowspan="2">Week 2</td>
+    <td>Seminar 2</td>
+    <td>
+    <a href="{{ site.baseurl }}/assets/slides/week2_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 2 - seminar Slides')">Slides</a>
+    </td>
+    <!-- <td>
+    <a href="URL_TO_ANNOTATED_SLIDES_WEEK1_SET1" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Annotated Slides')">View Annotated Slides</a> -->
+    <a href="{{ site.baseurl }}/assets/slides/matrixalgebra_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Slides annotated')">Annotated Slides</a>
+    <!-- </td> --> 
+    <td rowspan="3">Week 2</td>
+  </tr>
+ <tr>
+
+
+
   <!-- <tr>
     <td rowspan="3">Week 2</td>
     <td>Linear Regression Basics</td>
