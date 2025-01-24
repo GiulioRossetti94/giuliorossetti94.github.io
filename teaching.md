@@ -60,7 +60,7 @@ permalink: /teaching/
   </td>
   <td>
     <!-- Annotated slides not yet available -->
-    <a href="{{ site.baseurl }}/assets/slides/week1_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - annotated')">Annotated Slides</a>
+    <!-- <a href="{{ site.baseurl }}/assets/slides/week1_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - annotated')">Annotated Slides</a> -->
     <!-- Uncomment when available -->
     <!-- <a href="URL_TO_ANNOTATED_SLIDES_WEEK1_SET2" target="_blank">View Annotated Slides</a> -->
   </td>
@@ -75,7 +75,6 @@ permalink: /teaching/
     </td>
     <!-- <td>
     <a href="URL_TO_ANNOTATED_SLIDES_WEEK1_SET1" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Annotated Slides')">View Annotated Slides</a> -->
-    <a href="{{ site.baseurl }}/assets/slides/matrixalgebra_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Slides annotated')">Annotated Slides</a>
     <!-- </td> --> 
     <td rowspan="3">Week 2</td>
   </tr>
