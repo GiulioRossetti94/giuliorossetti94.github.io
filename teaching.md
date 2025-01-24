@@ -35,70 +35,44 @@ permalink: /teaching/
     <th>Slides</th>
     <th>Annotated Slides</th>
   </tr>
+  
+  <!-- Week 1 -->
   <tr>
     <td rowspan="2">Week 1</td>
     <td>Primer in Matrix Algebra</td>
     <td>
-    <a href="{{ site.baseurl }}/assets/slides/matrixalgebra_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Slides')">Slides</a>
+      <a href="{{ site.baseurl }}/assets/slides/matrixalgebra_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Slides')">Slides</a>
     </td>
     <td>
-    <!-- <a href="URL_TO_ANNOTATED_SLIDES_WEEK1_SET1" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Annotated Slides')">View Annotated Slides</a> -->
-    <a href="{{ site.baseurl }}/assets/slides/matrixalgebra_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Slides annotated')">Annotated Slides</a>
+      <a href="{{ site.baseurl }}/assets/slides/matrixalgebra_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Annotated Slides')">Annotated Slides</a>
     </td>
   </tr>
- <tr>
-  <td>Seminar 1</td>
-  <td>
-    <!-- Link to the PDF file -->
-    <a href="{{ site.baseurl }}/assets/slides/week1_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Seminar 1 PDF')">
-      Slides
-    </a><br>
-    <!-- Link to the Excel file -->
-    <a href="{{ site.baseurl }}/assets/slides/seminar1.xlsx" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Seminar 1 Excel')">
-      Excel
-    </a>
-  </td>
-  <td>
-    <!-- Annotated slides not yet available -->
-    <!-- <a href="{{ site.baseurl }}/assets/slides/week1_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - annotated')">Annotated Slides</a> -->
-    <!-- Uncomment when available -->
-    <!-- <a href="URL_TO_ANNOTATED_SLIDES_WEEK1_SET2" target="_blank">View Annotated Slides</a> -->
-  </td>
-</tr>
-
-  </tr>
   <tr>
-    <td rowspan="2">Week 2</td>
+    <td>Seminar 1</td>
+    <td>
+      <a href="{{ site.baseurl }}/assets/slides/week1_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Seminar 1 PDF')">Slides</a><br>
+      <a href="{{ site.baseurl }}/assets/slides/seminar1.xlsx" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Seminar 1 Excel')">Excel</a>
+    </td>
+    <td>
+      <!-- Annotated slides not yet available -->
+      <!-- Uncomment and update when available -->
+      <a href="{{ site.baseurl }}/assets/slides/week1_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Seminar 1 Annotated')">Annotated Slides</a>
+
+    </td>
+  </tr>
+  
+  <!-- Week 2 -->
+  <tr>
+    <td rowspan="3">Week 2</td>
     <td>Seminar 2</td>
     <td>
-    <a href="{{ site.baseurl }}/assets/slides/week2_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 2 - seminar Slides')">Slides</a>
+      <a href="{{ site.baseurl }}/assets/slides/week2_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 2 - Seminar 2 Slides')">Slides</a>
     </td>
-    <!-- <td>
-    <a href="URL_TO_ANNOTATED_SLIDES_WEEK1_SET1" target="_blank" class="slide-link" onclick="trackDownload('Week 1 - Primer Annotated Slides')">View Annotated Slides</a> -->
-    <!-- </td> --> 
-    <td rowspan="3">Week 2</td>
+    <td>
+      <!-- Annotated slides not yet available -->
+      Annotated slides
+    </td>
   </tr>
- <tr>
-
-
-
-  <!-- <tr>
-    <td rowspan="3">Week 2</td>
-    <td>Linear Regression Basics</td>
-    <td><a href="URL_TO_SLIDES_WEEK2_SET1" target="_blank">View Slides</a></td>
-    <td><a href="URL_TO_ANNOTATED_SLIDES_WEEK2_SET1" target="_blank">View Annotated Slides</a></td>
-  </tr>
-  <tr>
-    <td>Application of OLS</td>
-    <td><a href="URL_TO_SLIDES_WEEK2_SET2" target="_blank">View Slides</a></td>
-    <td><a href="URL_TO_ANNOTATED_SLIDES_WEEK2_SET2" target="_blank">View Annotated Slides</a></td>
-  </tr>
-  <tr>
-    <td>OLS Assumptions</td>
-    <td><a href="URL_TO_SLIDES_WEEK2_SET3" target="_blank">View Slides</a></td>
-    <td><a href="URL_TO_ANNOTATED_SLIDES_WEEK2_SET3" target="_blank">View Annotated Slides</a></td>
-  </tr> -->
-  <!-- Add more rows for additional weeks and slide sets -->
 </table>
 
 # Past teaching
