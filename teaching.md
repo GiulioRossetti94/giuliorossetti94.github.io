@@ -69,8 +69,7 @@ permalink: /teaching/
       <a href="{{ site.baseurl }}/assets/slides/week2_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 2 - Seminar 2 Slides')">Slides</a>
     </td>
     <td>
-      <!-- Annotated slides not yet available -->
-      Annotated slides
+      <a href="{{ site.baseurl }}/assets/slides/week2_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 2 - Seminar 2 Slides ann')">Annotated Slides</a>
     </td>
   </tr>
 </table>
