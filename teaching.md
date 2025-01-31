@@ -63,8 +63,8 @@ permalink: /teaching/
   
   <!-- Week 2 -->
   <tr>
-    <td rowspan="3">Week 2</td>
-    <td>Seminar 2</td>
+    <td rowspan="1">Week 2</td>
+   <td>Seminar 2</td> 
     <td>
       <a href="{{ site.baseurl }}/assets/slides/week2_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 2 - Seminar 2 Slides')">Slides</a>
     </td>
@@ -72,6 +72,21 @@ permalink: /teaching/
       <a href="{{ site.baseurl }}/assets/slides/week2_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 2 - Seminar 2 Slides ann')">Annotated Slides</a>
     </td>
   </tr>
+
+ <!-- Week 3 -->
+  <tr>
+    <td rowspan="2">Week 3</td>
+    <td>Seminar 3</td> 
+      <td>
+            <a href="{{ site.baseurl }}/assets/slides/week3_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 3 - Seminar 3 Slides')">Slides</a>
+          </td>
+          <td>
+            <!-- <a href="{{ site.baseurl }}/assets/slides/week3_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 3 - Seminar 3 Annotated Slides')">Annotated Slides</a> -->
+            Annotated Slides
+          </td>
+        </tr>
+  </tr>
+
 </table>
 
 # Past teaching
