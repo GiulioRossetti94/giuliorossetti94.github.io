@@ -75,16 +75,28 @@ permalink: /teaching/
 
  <!-- Week 3 -->
   <tr>
-    <td rowspan="2">Week 3</td>
+    <td rowspan="1">Week 3</td>
     <td>Seminar 3</td> 
       <td>
             <a href="{{ site.baseurl }}/assets/slides/week3_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 3 - Seminar 3 Slides')">Slides</a>
           </td>
           <td>
+            <a href="{{ site.baseurl }}/assets/slides/week3_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 3 - Seminar 3 Annotated Slides')">Annotated Slides</a>
+          </td>
+  </tr>
+
+   <!-- Week 4-->
+  <tr>
+    <td rowspan="1">Week 4</td>
+    <td>Seminar 4</td> 
+      <td>
+            <!-- <a href="{{ site.baseurl }}/assets/slides/week3_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 3 - Seminar 3 Slides')">Slides</a> -->
+            slides
+      </td>
+          <td>
             <!-- <a href="{{ site.baseurl }}/assets/slides/week3_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 3 - Seminar 3 Annotated Slides')">Annotated Slides</a> -->
             Annotated Slides
           </td>
-        </tr>
   </tr>
 
 </table>
