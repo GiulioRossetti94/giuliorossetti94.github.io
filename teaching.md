@@ -100,10 +100,10 @@ permalink: /teaching/
 
      <!-- Week 5-->
   <tr>
-    <td rowspan="1">Week 4</td>
-    <td>Seminar 4</td> 
+    <td rowspan="1">Week 5</td>
+    <td>Seminar 5</td> 
       <td>
-            <a href="{{ site.baseurl }}/assets/slides/week5_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 4 - Seminar 4 Slides')">Slides</a>
+            <a href="{{ site.baseurl }}/assets/slides/week5_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 5 - Seminar 5 Slides')">Slides</a>
       </td>
           <td>
             <!-- <a href="{{ site.baseurl }}/assets/slides/week4_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 3 - Seminar 3 Annotated Slides')">Annotated Slides</a> -->
