@@ -93,7 +93,7 @@ permalink: /teaching/
             <a href="{{ site.baseurl }}/assets/slides/week4_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 4 - Seminar 4 Slides')">Slides</a>
       </td>
           <td>
-            <a href="{{ site.baseurl }}/assets/slides/week4_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 3 - Seminar 3 Annotated Slides')">Annotated Slides</a>
+            <a href="{{ site.baseurl }}/assets/slides/week4_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 4 - Seminar 4 Annotated Slides')">Annotated Slides</a>
             <!-- Annotated Slides -->
           </td>
   </tr>
@@ -106,10 +106,12 @@ permalink: /teaching/
             <a href="{{ site.baseurl }}/assets/slides/week5_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 5 - Seminar 5 Slides')">Slides</a>
       </td>
           <td>
-            <!-- <a href="{{ site.baseurl }}/assets/slides/week4_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 3 - Seminar 3 Annotated Slides')">Annotated Slides</a> -->
-            Annotated Slides
+            <a href="{{ site.baseurl }}/assets/slides/week5_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 5 - Seminar 5 Annotated Slides')">Annotated Slides</a>
+            
           </td>
   </tr>
+
+  
 
 </table>
 
