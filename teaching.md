@@ -127,8 +127,7 @@ permalink: /teaching/
             <a href="{{ site.baseurl }}/assets/slides/week7_GR.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 7 - Seminar 7 Slides')">Slides</a>
       </td>
           <td>
-            <!-- <a href="{{ site.baseurl }}/assets/slides/week5_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 5 - Seminar 5 Annotated Slides')">Annotated Slides</a> -->
-          annotated slides
+            <a href="{{ site.baseurl }}/assets/slides/week7_GR_annotated.pdf" target="_blank" class="slide-link" onclick="trackDownload('Week 7 - Seminar 7 Annotated Slides')">Annotated Slides</a>
           </td>
   </tr>
 
