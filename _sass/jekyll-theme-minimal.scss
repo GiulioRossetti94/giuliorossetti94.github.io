@@ -354,13 +354,34 @@ footer {
 
 .top-right-nav ul li a {
   text-decoration: none;
-  color: #267CB9; /* Matches the theme's link color */
-  font-weight: bold;
+  color: #267CB9;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 4px;
+}
+
+.top-right-nav ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #267CB9;
+  transition: width 0.3s ease;
 }
 
 .top-right-nav ul li a:hover {
-  color: #069; /* Matches the hover color */
-  text-decoration: underline;
+  color: #267CB9;
+  font-weight: 500;
+}
+
+.top-right-nav ul li a:hover::after {
+  width: 100%;
+}
+
+.top-right-nav ul li a[aria-current="page"]::after {
+  width: 100%;
 }
 
 .wrapper {
@@ -877,4 +898,150 @@ footer {
 
 .older-teaching-content .year-section:last-child {
   margin-bottom: 0;
+}
+
+/* ==========================================
+   Phase 4: Visual Enhancements
+   ========================================== */
+
+/* Typography Improvements */
+body {
+  line-height: 1.7;
+}
+
+h1 {
+  font-size: 1.6em;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 1.35em;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.15em;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 1.2em;
+}
+
+/* Research Paper Cards */
+.paper-card {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.paper-card:last-child {
+  border-bottom: none;
+}
+
+.paper-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  line-height: 1.4;
+}
+
+.paper-title a {
+  color: #267CB9;
+  text-decoration: none;
+}
+
+.paper-title a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.paper-authors {
+  font-size: 0.9em;
+  color: #666;
+  margin: 0 0 12px 0;
+}
+
+.paper-authors a {
+  color: #555;
+}
+
+.paper-authors a:hover {
+  color: #267CB9;
+}
+
+.paper-abstract {
+  margin-top: 10px;
+}
+
+.paper-abstract summary {
+  cursor: pointer;
+  color: #267CB9;
+  font-size: 0.85em;
+  font-weight: 500;
+  user-select: none;
+  display: inline-block;
+  padding: 4px 0;
+}
+
+.paper-abstract summary:hover {
+  text-decoration: underline;
+}
+
+.paper-abstract summary::-webkit-details-marker {
+  display: none;
+}
+
+.paper-abstract summary::before {
+  content: "+ ";
+  font-weight: 400;
+}
+
+.paper-abstract[open] summary::before {
+  content: "− ";
+}
+
+.paper-abstract p {
+  margin-top: 12px;
+  font-size: 0.88em;
+  color: #555;
+  line-height: 1.6;
+  padding-left: 15px;
+  border-left: 2px solid #e5e5e5;
+}
+
+/* CV Download Button */
+.view a[href*="CV"] {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #267CB9;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.view a[href*="CV"]:hover {
+  background: #1a5a8a;
+  color: #fff;
+  transform: translateY(-1px);
+  font-weight: 500;
+}
+
+/* Mobile - Research */
+@media screen and (max-width: 720px) {
+  .paper-card {
+    padding: 15px 0;
+  }
+
+  .paper-title {
+    font-size: 1em;
+  }
+
+  .paper-abstract p {
+    font-size: 0.85em;
+  }
 }
