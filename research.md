@@ -30,7 +30,6 @@ permalink: /research/
 
 <div class="paper-card">
   <h3 class="paper-title">Bond Return Predictability and Anchoring Bias</h3>
-  <p class="paper-authors">Solo-authored</p>
   <details class="paper-abstract">
     <summary>Abstract</summary>
     <p>This paper investigates whether deviations of macroeconomic variables from their historical moving averages—capturing investors' anchoring biases—enhance the predictability of bond excess returns. Utilizing a large dataset of macroeconomic indicators and shrinkage methods, we construct a deviation index following the approach of Avramov et al. (2022) to evaluate predictive power against traditional yield-curve predictors. Although deviations from past macroeconomic values demonstrate substantial in-sample forecasting ability, particularly through sparse and principal component analysis, this success does not extend robustly out-of-sample. Our findings indicate that, despite strong theoretical motivation from behavioral finance literature, anchoring biases captured via deviations from historical averages provide limited practical improvement over standard predictors in forecasting bond risk premia.</p>
