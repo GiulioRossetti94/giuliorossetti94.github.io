@@ -1,0 +1,23 @@
+# Latest Updates
+# Items auto-hide after 30 days unless pin: true
+#
+# Fields:
+#   date: YYYY-MM-DD (required)
+#   type: paper | teaching | code | talk | other (required)
+#   title: Short description (required)
+#   link: URL or path (required)
+#   pin: true (optional - keeps item visible forever)
+#
+# Example:
+# - date: 2026-01-15
+#   type: paper
+#   title: "New working paper on corporate bonds"
+#   link: /research/
+#   pin: true
+
+- date: 2026-01-16
+  type: teaching
+  title: "Teaching page redesigned with new layout"
+  link: /teaching/
+
+# Add new items at the top

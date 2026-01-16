@@ -725,3 +725,102 @@ footer {
     font-size: 0.9rem;
   }
 }
+
+/* ==========================================
+   Latest Updates Section (Homepage)
+   ========================================== */
+
+.latest-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.latest-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.2s;
+}
+
+.latest-item:hover {
+  background: #f0f4f8;
+  border-color: #267CB9;
+  transform: translateX(4px);
+  color: #333;
+  font-weight: normal;
+}
+
+.latest-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.latest-text {
+  flex-grow: 1;
+  font-size: 0.95rem;
+}
+
+.latest-date {
+  font-size: 0.8rem;
+  color: #888;
+  flex-shrink: 0;
+}
+
+/* Type-specific colors */
+.latest-paper .latest-icon {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.latest-teaching .latest-icon {
+  background: #e8f5e9;
+  color: #388e3c;
+}
+
+.latest-code .latest-icon {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.latest-talk .latest-icon {
+  background: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.latest-other .latest-icon {
+  background: #eceff1;
+  color: #546e7a;
+}
+
+/* Mobile Responsive - Latest */
+@media screen and (max-width: 720px) {
+  .latest-item {
+    padding: 10px 14px;
+  }
+
+  .latest-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .latest-text {
+    font-size: 0.9rem;
+  }
+
+  .latest-date {
+    font-size: 0.75rem;
+  }
+}

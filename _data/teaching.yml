@@ -29,6 +29,21 @@ current_courses:
   #     # Add more weeks as needed...
 
 past_teaching:
+  - year: 2026
+    courses:
+      - code: XX9FMX
+        name: Pre-sessional Excel Training Course
+        level: MSc
+      - code: XX9FMB
+        name: Excel Training Course
+        level: MSc
+      - code: IB9X60
+        name: Quantitative Methods for Finance
+        level: MSc
+      - code: IB2B20
+        name: Financial Econometrics
+        level: BSc
+
   - year: 2025
     courses:
       - code: XX9FMX
