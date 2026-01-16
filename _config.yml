@@ -1,13 +1,16 @@
 theme: jekyll-theme-minimal
 logo: /assets/img/GRround.png
-title: Giulio Rossetti 
-description: ""
+title: Giulio Rossetti
+description: "Personal website of Giulio Rossetti, Post-Doc Researcher at Warwick Business School specializing in Financial Econometrics and Asset Pricing."
 baseurl: ""
 url: https://giuliorossetti94.github.io
 google_analytics: G-5PHQX8Q4JM
 
 markdown: kramdown
-  
+
 show_downloads: true
+
+plugins:
+  - jekyll-sitemap
 
 
