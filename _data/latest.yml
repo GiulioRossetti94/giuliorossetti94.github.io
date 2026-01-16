@@ -16,6 +16,11 @@
 #   pin: true
 
 - date: 2026-01-16
+  type: code
+  title: "Coming soon! PyBondLab new version"
+  link: /data-code/
+
+- date: 2026-01-16
   type: teaching
   title: "Teaching page redesigned with new layout"
   link: /teaching/
