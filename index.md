@@ -11,8 +11,7 @@ I completed a PhD in Finance and Econometrics at the University of Warwick -- WB
 
 My research lies at the intersection of financial econometrics and asset pricing, with a particular focus on asset returns.
 
-{% assign thirty_days_ago = 'now' | date: '%s' | minus: 2592000 %}
-{% assign visible_items = site.data.latest | where_exp: "item", "item.pin == true or item.date >= thirty_days_ago" | slice: 0, 4 %}
+{% assign visible_items = site.data.latest | slice: 0, 4 %}
 
 {% if visible_items.size > 0 %}
 ## Latest

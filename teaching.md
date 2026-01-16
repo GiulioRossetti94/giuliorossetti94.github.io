@@ -69,7 +69,10 @@ keywords: "teaching, university of warwick, financial econometrics, matrix algeb
 
 **University of Warwick, Warwick Business School**
 
-{% for year_data in site.data.teaching.past_teaching %}
+{% assign recent_years = site.data.teaching.past_teaching | where_exp: "item", "item.year >= 2024" %}
+{% assign older_years = site.data.teaching.past_teaching | where_exp: "item", "item.year < 2024" %}
+
+{% for year_data in recent_years %}
 <div class="year-section">
   <h2 class="year-heading">{{ year_data.year }}</h2>
   <div class="courses-grid">
@@ -83,3 +86,28 @@ keywords: "teaching, university of warwick, financial econometrics, matrix algeb
   </div>
 </div>
 {% endfor %}
+
+{% if older_years.size > 0 %}
+<details class="older-teaching-accordion">
+  <summary class="older-teaching-header">
+    <span>Older (2021-2023)</span>
+    <span class="older-toggle"></span>
+  </summary>
+  <div class="older-teaching-content">
+    {% for year_data in older_years %}
+    <div class="year-section">
+      <h2 class="year-heading">{{ year_data.year }}</h2>
+      <div class="courses-grid">
+        {% for course in year_data.courses %}
+        <div class="past-course-card">
+          <span class="course-code">{{ course.code }}</span>
+          <span class="course-name">{{ course.name }}</span>
+          <span class="course-level">{{ course.level }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</details>
+{% endif %}
