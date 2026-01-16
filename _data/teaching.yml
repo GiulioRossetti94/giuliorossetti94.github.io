@@ -1,0 +1,81 @@
+# Teaching Data File
+# To add slides: just add/edit the slides and annotated fields
+# To add a new week: copy a week block and update the values
+
+current_courses:
+  # Uncomment and edit when you have an active course with materials
+  # - code: IB2B20
+  #   name: Financial Econometrics
+  #   level: BSc
+  #   term: Spring 2025
+  #   description: "Weekly seminar materials for Financial Econometrics"
+  #   weeks:
+  #     - week: 1
+  #       topics:
+  #         - name: Primer in Matrix Algebra
+  #           slides: matrixalgebra_GR.pdf
+  #           annotated: matrixalgebra_GR_annotated.pdf
+  #         - name: Seminar 1
+  #           slides: week1_GR.pdf
+  #           annotated: week1_GR_annotated.pdf
+  #           extras:
+  #             - name: Excel
+  #               file: seminar1.xlsx
+  #     - week: 2
+  #       topics:
+  #         - name: Seminar 2
+  #           slides: week2_GR.pdf
+  #           annotated: week2_GR_annotated.pdf
+  #     # Add more weeks as needed...
+
+past_teaching:
+  - year: 2025
+    courses:
+      - code: XX9FMX
+        name: Pre-sessional Excel Training Course
+        level: MSc
+      - code: IB9X60
+        name: Quantitative Methods for Finance
+        level: MSc
+      - code: IB2B20
+        name: Financial Econometrics
+        level: BSc
+      - code: IB1140
+        name: Financial Management
+        level: BSc
+
+  - year: 2024
+    courses:
+      - code: IB9Y60
+        name: Empirical Finance
+        level: MSc
+      - code: IB2B20
+        name: Financial Econometrics
+        level: BSc
+
+  - year: 2023
+    courses:
+      - code: IB1140
+        name: Financial Management
+        level: BSc
+      - code: IB1250
+        name: Foundations of Financial Management
+        level: BSc
+
+  - year: 2022
+    courses:
+      - code: IB1140
+        name: Financial Management
+        level: BSc
+      - code: IB2530
+        name: Principles of Finance 1
+        level: BSc
+      - code: IB1250
+        name: Foundations of Financial Management
+        level: BSc
+
+  - year: 2021
+    courses:
+      - code: IB1140
+        name: Financial Management
+        level: BSc

@@ -438,3 +438,290 @@ footer {
   text-decoration: none;
   cursor: default;
 }
+
+/* ==========================================
+   Teaching Page - Card & Accordion Styles
+   ========================================== */
+
+/* Course Card Container */
+.course-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e5e5;
+}
+
+.course-header h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.4em;
+  color: #267CB9;
+}
+
+.course-meta {
+  display: inline-block;
+  padding: 4px 12px;
+  background: #f0f7fc;
+  color: #267CB9;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.course-description {
+  color: #666;
+  margin: 15px 0;
+  font-size: 0.95rem;
+}
+
+/* Week Accordion */
+.weeks-container {
+  margin-top: 20px;
+}
+
+.week-accordion {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.week-accordion[open] {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.week-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  background: #f8f9fa;
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+  transition: background-color 0.2s;
+}
+
+.week-header::-webkit-details-marker {
+  display: none;
+}
+
+.week-header:hover {
+  background: #f0f4f8;
+}
+
+.week-number {
+  font-weight: 600;
+  color: #333;
+  font-size: 1rem;
+}
+
+.week-toggle::after {
+  content: "+";
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #666;
+  transition: transform 0.2s;
+}
+
+.week-accordion[open] .week-toggle::after {
+  content: "−";
+}
+
+.week-content {
+  padding: 15px 18px;
+  background: #fff;
+}
+
+/* Topic Items */
+.topic-item {
+  padding: 12px 15px;
+  border-left: 3px solid #267CB9;
+  background: #f8fafc;
+  margin-bottom: 10px;
+  border-radius: 0 6px 6px 0;
+}
+
+.topic-item:last-child {
+  margin-bottom: 0;
+}
+
+.topic-name {
+  display: block;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Material Download Buttons */
+.material-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.material-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.material-btn svg {
+  flex-shrink: 0;
+}
+
+.slides-btn {
+  background: #267CB9;
+  color: #fff;
+}
+
+.slides-btn:hover {
+  background: #1a5a8a;
+  color: #fff;
+  transform: translateY(-1px);
+  font-weight: 500;
+}
+
+.annotated-btn {
+  background: #28a745;
+  color: #fff;
+}
+
+.annotated-btn:hover {
+  background: #1e7e34;
+  color: #fff;
+  transform: translateY(-1px);
+  font-weight: 500;
+}
+
+.extra-btn {
+  background: #6c757d;
+  color: #fff;
+}
+
+.extra-btn:hover {
+  background: #545b62;
+  color: #fff;
+  transform: translateY(-1px);
+  font-weight: 500;
+}
+
+/* Section Divider */
+.section-divider {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #e5e5e5, transparent);
+  margin: 40px 0;
+}
+
+/* Past Teaching - Year Sections */
+.year-section {
+  margin-bottom: 30px;
+}
+
+.year-heading {
+  font-size: 1.3em;
+  color: #333;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #267CB9;
+  display: inline-block;
+}
+
+/* Past Courses Grid */
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 15px;
+}
+
+.past-course-card {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  transition: all 0.2s;
+}
+
+.past-course-card:hover {
+  background: #f0f4f8;
+  border-color: #267CB9;
+}
+
+.past-course-card .course-code {
+  font-weight: 600;
+  color: #267CB9;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.past-course-card .course-name {
+  color: #333;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+  flex-grow: 1;
+}
+
+.past-course-card .course-level {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #e9ecef;
+  color: #666;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  align-self: flex-start;
+}
+
+/* Mobile Responsive - Teaching */
+@media screen and (max-width: 720px) {
+  .course-card {
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+
+  .course-header h2 {
+    font-size: 1.2em;
+  }
+
+  .material-links {
+    flex-direction: column;
+  }
+
+  .material-btn {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .courses-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .week-header {
+    padding: 12px 14px;
+  }
+
+  .topic-item {
+    padding: 10px 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .course-meta {
+    font-size: 0.8rem;
+    padding: 3px 10px;
+  }
+
+  .material-btn {
+    padding: 10px 12px;
+    font-size: 0.9rem;
+  }
+}
