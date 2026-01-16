@@ -294,6 +294,37 @@ footer {
   }
 }
 
+/* Large Desktop (>1200px) */
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    width: 1100px;
+  }
+
+  section {
+    width: 750px;
+  }
+
+  header {
+    width: 300px;
+  }
+
+  footer {
+    width: 300px;
+  }
+
+  ul.downloads {
+    width: 300px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
+
 /* Top-Right Horizontal Navigation */
 .top-right-nav {
   position: flex; /* Keeps it fixed at the top-right */
