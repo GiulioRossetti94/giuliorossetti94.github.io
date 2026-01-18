@@ -12,8 +12,8 @@ current_courses:
       - week: 1
         topics:
           - name: Primer in Matrix Algebra
-            slides: matrixalgebra_GR.pdf
-            # annotated: matrixalgebra_GR_annotated.pdf
+            slides: matrixalgebra.pdf
+            # annotated: matrixalgebra_annotated.pdf
           - name: Seminar 1
             slides: week1_GR.pdf
             # annotated: week1_GR_annotated.pdf
