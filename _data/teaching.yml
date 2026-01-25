@@ -16,10 +16,8 @@ current_courses:
             # annotated: matrixalgebra_annotated.pdf
           - name: Seminar 1
             slides: week1_GR.pdf
-            # annotated: week1_GR_annotated.pdf
-            extras:
-              - name: Excel
-                file: seminar1.xlsx
+            annotated: week1_GR_annot.pdf
+
       # - week: 2
       #   topics:
       #     - name: Seminar 2
