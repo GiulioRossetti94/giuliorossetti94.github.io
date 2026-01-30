@@ -18,11 +18,11 @@ current_courses:
             slides: week1_GR.pdf
             annotated: week1_GR_annot.pdf
 
-      # - week: 2
-      #   topics:
-      #     - name: Seminar 2
-      #       slides: week2_GR.pdf
-      #       annotated: week2_GR_annotated.pdf
+      - week: 2
+        topics:
+          - name: Seminar 2
+            slides: week2_GR.pdf
+            # annotated: week2_GR_annotated.pdf
 
 past_teaching:
   - year: 2026
