@@ -22,7 +22,14 @@ current_courses:
         topics:
           - name: Seminar 2
             slides: week2_GR.pdf
-            # annotated: week2_GR_annotated.pdf
+            annotated: week2_GR_annot.pdf
+      
+      - week: 3
+        topics:
+          - name: Seminar 3
+            slides: week3_GR.pdf 
+
+
 
 past_teaching:
   - year: 2026
