@@ -30,10 +30,10 @@ current_courses:
             slides: week3_GR.pdf 
             annotated: week3_GR_annot.pdf
 
-      -week: 4
+      - week: 4
         topics:
           - name: Seminar 4
-          - slides: week4_GR.pdf
+            slides: week4_GR.pdf
 
 
 
