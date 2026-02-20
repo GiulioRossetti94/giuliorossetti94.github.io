@@ -34,6 +34,7 @@ current_courses:
         topics:
           - name: Seminar 4
             slides: week4_GR.pdf
+            annotated: week4_GR_annot.pdf
 
 
 
