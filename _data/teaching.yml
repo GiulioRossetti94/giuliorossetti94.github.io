@@ -40,8 +40,13 @@ current_courses:
         topics:
           - name: Seminar 5
             slides: week5_GR.pdf
-            # annotated: week5_GR_annot.pdf     
+            annotated: week5_GR_annot.pdf     
 
+      - week: 7
+        topics:
+          - name: Seminar 5
+            slides: week7_GR.pdf
+            # annotated: week5_GR_annot.pdf   
 
 
 
