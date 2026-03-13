@@ -8,23 +8,23 @@ permalink: /research/
 
 <div class="paper-card">
   <h3 class="paper-title">
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4575879" target="_blank">Common Pitfalls in the Evaluation of Corporate Bond Strategies (R&R)</a>
+  </h3>
+  <p class="paper-authors">with <a href="https://www.alexdickerson.com/home">Alex Dickerson</a> and <a href="https://cesarerobotti.com">Cesare Robotti</a></p>
+  <details class="paper-abstract">
+    <summary>Abstract</summary>
+    <p>We argue that the documented large abnormal returns to investors from a wide array of corporate bond strategies mainly stem from ignoring market microstructure noise in transaction-based bond prices and relying on (ad hoc and asymmetric) out-of-sample return trimming or winsorization. To address these issues, we construct bond data that is largely free of microstructure noise and closely mimics industry-grade quote data. We revisit prior findings in the literature and provide conclusive evidence that most bond anomaly portfolios/factors, once properly constructed, generate negligible average returns and alphas. Finally, we show that the considered factors (and their underlying signals) are only weakly related to average bond returns.</p>
+  </details>
+</div>
+
+<div class="paper-card">
+  <h3 class="paper-title">
     <a href="/assets/pdf/ARRZ.pdf" target="_blank">Misspecification and Weak Identification in the Nontraded Factor Zoo</a>
   </h3>
   <p class="paper-authors">with <a href="https://amandri.github.io/">Amedeo Andriollo</a>, <a href="https://cesarerobotti.com">Cesare Robotti</a>, and <a href="https://warwick.ac.uk/fac/soc/wbs/subjects/finance/faculty1/phd_students/xinyi-zhang/">Xinyi Zhang</a></p>
   <details class="paper-abstract">
     <summary>Abstract</summary>
     <p>To explain the cross-section of asset returns, a "zoo" of nontraded factors has been proposed. In contrast to traded factors, nontraded factors exhibit lower correlations with asset returns. Standard inference on risk premium therefore tends to be more fragile, and the issue of weak identification might be exacerbated by the degree of model misspecification. Yet, robust inference has often been overlooked by many empirical studies, while limited efforts have been devoted to "domesticating" such factors. After re-evaluating the nontraded factor zoo, we find that the vast majority of the original model specifications published in top academic journals suffer from the aforementioned fragilities. Robust inference indicates that most of the proposed nontraded factors are unpriced in the commonly used portfolios. The findings are more drastic when considering multiple hypothesis testing adjustments, or when incorporating the market factor as an additional control. Complementing these tests, a comprehensive beta-sorted portfolio analysis shows that few nontraded factors translate into economically meaningful investment premiums. However, when summarizing the nontraded factors via PCA, we find that the zoo does carry some non-zero pricing information.</p>
-  </details>
-</div>
-
-<div class="paper-card">
-  <h3 class="paper-title">
-    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4575879" target="_blank">Common Pitfalls in the Evaluation of Corporate Bond Strategies</a>
-  </h3>
-  <p class="paper-authors">with <a href="https://www.alexdickerson.com/home">Alex Dickerson</a> and <a href="https://cesarerobotti.com">Cesare Robotti</a></p>
-  <details class="paper-abstract">
-    <summary>Abstract</summary>
-    <p>We argue that the documented large abnormal returns to investors from a wide array of corporate bond strategies mainly stem from ignoring market microstructure noise in transaction-based bond prices and relying on (ad hoc and asymmetric) out-of-sample return trimming or winsorization. To address these issues, we construct bond data that is largely free of microstructure noise and closely mimics industry-grade quote data. We revisit prior findings in the literature and provide conclusive evidence that most bond anomaly portfolios/factors, once properly constructed, generate negligible average returns and alphas. Finally, we show that the considered factors (and their underlying signals) are only weakly related to average bond returns.</p>
   </details>
 </div>
 
