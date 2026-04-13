@@ -58,7 +58,7 @@ current_courses:
         topics:
           - name: Seminar 9
             slides: week9_GR.pdf
-            # annotated: week8_GR_annot.pdf  
+            annotated: week9_GR_annot.pdf  
 
 past_teaching:
   - year: 2026
