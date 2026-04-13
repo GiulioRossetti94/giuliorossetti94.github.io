@@ -14,9 +14,9 @@ description: "Working papers by Giulio Rossetti in financial econometrics and as
   <span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Cesare Robotti"></span>
   <span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Giulio Rossetti"></span>
   <h3 class="paper-title">
-    <a href="/assets/pdf/DRR_corporate_bond_replic.pdf" target="_blank" itemprop="url"><span itemprop="name headline">The Corporate Bond Factor Replication Crisis</span></a>
+    <a href="/assets/pdf/dickerson-robotti-rossetti-corporate-bond-factor-replication-crisis.pdf" target="_blank" itemprop="url"><span itemprop="name headline">The Corporate Bond Factor Replication Crisis</span></a>
   </h3>
-  <p class="paper-authors">with <a href="https://www.alexdickerson.com/home">Alex Dickerson</a> and <a href="https://cesarerobotti.com">Cesare Robotti</a> — April 2026 [<a href="/assets/pdf/DRR_corporate_bond_replic.pdf" target="_blank">PDF</a>] [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4575879" target="_blank">SSRN</a>] [<a href="https://openbondassetpricing.com" target="_blank">Open Bond Asset Pricing</a>]</p>
+  <p class="paper-authors">with <a href="https://www.alexdickerson.com/home">Alex Dickerson</a> and <a href="https://cesarerobotti.com">Cesare Robotti</a> — April 2026 [<a href="/assets/pdf/dickerson-robotti-rossetti-corporate-bond-factor-replication-crisis.pdf" target="_blank">PDF</a>] [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4575879" target="_blank">SSRN</a>] [<a href="https://openbondassetpricing.com" target="_blank">Open Bond Asset Pricing</a>]</p>
   <details class="paper-abstract" open>
     <summary>Abstract</summary>
     <p itemprop="abstract">Corporate bond factor research faces a replication crisis. The crisis stems from two sources that inflate reported factor premia: transaction prices whose measurement error enters both sorting signals and return denominators, creating a correlated errors-in-variables bias, and asymmetric ex-post return filtering that embeds future information into factor construction. Applying our framework to a "factor zoo" of 108 signals across nine thematic clusters, we show that the majority of previously documented factors do not produce statistically significant bond CAPM alphas after correction. We provide an open source framework via <a href="https://openbondassetpricing.com" target="_blank">Open Bond Asset Pricing</a>, including error-corrected TRACE data, bias-corrected factors, and software for reproducible research.</p>
@@ -39,7 +39,7 @@ description: "Working papers by Giulio Rossetti in financial econometrics and as
   ],
   "datePublished": "2026-04",
   "inLanguage": "en",
-  "url": "https://giuliorossetti94.github.io/assets/pdf/DRR_corporate_bond_replic.pdf",
+  "url": "https://giuliorossetti94.github.io/assets/pdf/dickerson-robotti-rossetti-corporate-bond-factor-replication-crisis.pdf",
   "mainEntityOfPage": "https://giuliorossetti94.github.io/research/",
   "keywords": "Corporate bond factors, Open source, Factor zoo, Replication crisis, Measurement error, Look-ahead bias, Non-standard errors",
   "about": ["Corporate bond pricing", "Asset pricing factors", "Replication crisis", "Financial econometrics"],
@@ -49,7 +49,7 @@ description: "Working papers by Giulio Rossetti in financial econometrics and as
 
 <div class="paper-card">
   <h3 class="paper-title">
-    <a href="/assets/pdf/ARRZ.pdf" target="_blank">Misspecification and Weak Identification in the Nontraded Factor Zoo</a>
+    <a href="/assets/pdf/andriollo-robotti-rossetti-zhang-nontraded-factor-zoo.pdf" target="_blank">Misspecification and Weak Identification in the Nontraded Factor Zoo</a>
   </h3>
   <p class="paper-authors">with <a href="https://amandri.github.io/">Amedeo Andriollo</a>, <a href="https://cesarerobotti.com">Cesare Robotti</a>, and <a href="https://warwick.ac.uk/fac/soc/wbs/subjects/finance/faculty1/phd_students/xinyi-zhang/">Xinyi Zhang</a></p>
   <details class="paper-abstract">
