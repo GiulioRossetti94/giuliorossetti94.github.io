@@ -2,20 +2,50 @@
 layout: default
 title: Research
 permalink: /research/
+description: "Working papers by Giulio Rossetti in financial econometrics and asset pricing, including The Corporate Bond Factor Replication Crisis (Dickerson, Robotti, Rossetti, 2026)."
 ---
 
 # Working Papers
 
-<div class="paper-card">
+<div class="paper-card" itemscope itemtype="https://schema.org/ScholarlyArticle">
+  <meta itemprop="datePublished" content="2026-04">
+  <meta itemprop="inLanguage" content="en">
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Alexander Dickerson"></span>
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Cesare Robotti"></span>
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Giulio Rossetti"></span>
   <h3 class="paper-title">
-    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4575879" target="_blank">Common Pitfalls in the Evaluation of Corporate Bond Strategies (R&R)</a>
+    <a href="/assets/pdf/DRR_corporate_bond_replic.pdf" target="_blank" itemprop="url"><span itemprop="name headline">The Corporate Bond Factor Replication Crisis</span></a>
   </h3>
-  <p class="paper-authors">with <a href="https://www.alexdickerson.com/home">Alex Dickerson</a> and <a href="https://cesarerobotti.com">Cesare Robotti</a></p>
-  <details class="paper-abstract">
+  <p class="paper-authors">with <a href="https://www.alexdickerson.com/home">Alex Dickerson</a> and <a href="https://cesarerobotti.com">Cesare Robotti</a> — April 2026 [<a href="/assets/pdf/DRR_corporate_bond_replic.pdf" target="_blank">PDF</a>] [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4575879" target="_blank">SSRN</a>] [<a href="https://openbondassetpricing.com" target="_blank">Open Bond Asset Pricing</a>]</p>
+  <details class="paper-abstract" open>
     <summary>Abstract</summary>
-    <p>We argue that the documented large abnormal returns to investors from a wide array of corporate bond strategies mainly stem from ignoring market microstructure noise in transaction-based bond prices and relying on (ad hoc and asymmetric) out-of-sample return trimming or winsorization. To address these issues, we construct bond data that is largely free of microstructure noise and closely mimics industry-grade quote data. We revisit prior findings in the literature and provide conclusive evidence that most bond anomaly portfolios/factors, once properly constructed, generate negligible average returns and alphas. Finally, we show that the considered factors (and their underlying signals) are only weakly related to average bond returns.</p>
+    <p itemprop="abstract">Corporate bond factor research faces a replication crisis. The crisis stems from two sources that inflate reported factor premia: transaction prices whose measurement error enters both sorting signals and return denominators, creating a correlated errors-in-variables bias, and asymmetric ex-post return filtering that embeds future information into factor construction. Applying our framework to a "factor zoo" of 108 signals across nine thematic clusters, we show that the majority of previously documented factors do not produce statistically significant bond CAPM alphas after correction. We provide an open source framework via <a href="https://openbondassetpricing.com" target="_blank">Open Bond Asset Pricing</a>, including error-corrected TRACE data, bias-corrected factors, and software for reproducible research.</p>
+    <p><em>Keywords:</em> <span itemprop="keywords">Corporate bond factors; Open source; Factor zoo; Replication crisis; Measurement error; Look-ahead bias; Non-standard errors</span>.</p>
+    <p><em>JEL Classification:</em> C12; C13; C58; G11; G12.</p>
+    <p><em>Note:</em> An earlier version of this paper circulated under the title "Common Pitfalls in the Evaluation of Corporate Bond Strategies."</p>
   </details>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "The Corporate Bond Factor Replication Crisis",
+  "name": "The Corporate Bond Factor Replication Crisis",
+  "author": [
+    {"@type": "Person", "name": "Alexander Dickerson", "affiliation": "UNSW Business School"},
+    {"@type": "Person", "name": "Cesare Robotti", "affiliation": "Warwick Business School, University of Warwick"},
+    {"@type": "Person", "name": "Giulio Rossetti", "affiliation": "Warwick Business School, University of Warwick"}
+  ],
+  "datePublished": "2026-04",
+  "inLanguage": "en",
+  "url": "https://giuliorossetti94.github.io/assets/pdf/DRR_corporate_bond_replic.pdf",
+  "mainEntityOfPage": "https://giuliorossetti94.github.io/research/",
+  "keywords": "Corporate bond factors, Open source, Factor zoo, Replication crisis, Measurement error, Look-ahead bias, Non-standard errors",
+  "about": ["Corporate bond pricing", "Asset pricing factors", "Replication crisis", "Financial econometrics"],
+  "abstract": "Corporate bond factor research faces a replication crisis. The crisis stems from two sources that inflate reported factor premia: transaction prices whose measurement error enters both sorting signals and return denominators, creating a correlated errors-in-variables bias, and asymmetric ex-post return filtering that embeds future information into factor construction. Applying our framework to a factor zoo of 108 signals across nine thematic clusters, we show that the majority of previously documented factors do not produce statistically significant bond CAPM alphas after correction. We provide an open source framework via Open Bond Asset Pricing, including error-corrected TRACE data, bias-corrected factors, and software for reproducible research."
+}
+</script>
 
 <div class="paper-card">
   <h3 class="paper-title">
