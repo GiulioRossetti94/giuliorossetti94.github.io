@@ -1,10 +1,32 @@
 theme: jekyll-theme-minimal
 logo: /assets/img/GRround.png
 title: Giulio Rossetti
+tagline: "Financial Econometrics & Asset Pricing — Warwick Business School"
 description: "Personal website of Giulio Rossetti, Post-Doc Researcher at Warwick Business School specializing in Financial Econometrics and Asset Pricing."
 baseurl: ""
 url: https://giuliorossetti94.github.io
 google_analytics: G-5PHQX8Q4JM
+lang: en-US
+
+author:
+  name: Giulio Rossetti
+  email: giulio.rossetti.1@wbs.ac.uk
+
+twitter:
+  username: gi_r94
+  card: summary_large_image
+
+social:
+  name: Giulio Rossetti
+  links:
+    - https://github.com/GiulioRossetti94
+    - https://linkedin.com/in/rossettigiulio
+    - https://x.com/gi_r94
+    - https://www.wbs.ac.uk/about/person/giuliorossetti-/
+    # TODO: add your Google Scholar, ORCID, and SSRN author URLs below
+    # - https://scholar.google.com/citations?user=YOUR_ID
+    # - https://orcid.org/YOUR_ID
+    # - https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=YOUR_ID
 
 markdown: kramdown
 
@@ -12,5 +34,7 @@ show_downloads: true
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
 
 

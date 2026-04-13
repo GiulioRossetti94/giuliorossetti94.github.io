@@ -2,6 +2,7 @@
 layout: default
 title: Data & Code
 permalink: /data-code/
+description: "Open-source data and code by Giulio Rossetti, including PyBondLab — a Python library for corporate bond asset pricing research with error-corrected TRACE data and bias-corrected factors."
 ---
 
 # PyBondLab
