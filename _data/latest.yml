@@ -15,6 +15,13 @@
 #   link: /research/
 #   pin: true
 
+- date: 2026-04-13
+  type: paper
+  badge: "New version"
+  title: "The Corporate Bond Factor Replication Crisis (Dickerson, Robotti, Rossetti)"
+  link: /assets/pdf/DRR_corporate_bond_replic.pdf
+  pin: true
+
 - date: 2026-03-13
   type: paper
   badge: "New version"
