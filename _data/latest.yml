@@ -15,6 +15,12 @@
 #   link: /research/
 #   pin: true
 
+- date: 2026-09-24
+  type: code
+  badge: "New release"
+  title: "PyBondLab 0.3.0 now available on PyPI"
+  link: https://pypi.org/project/pybondlab/
+
 - date: 2026-04-13
   type: paper
   badge: "New version"
@@ -27,11 +33,5 @@
   badge: "New version"
   title: "Misspecification and Weak Identification in the Nontraded Factor Zoo"
   link: /research/
-
-- date: 2026-01-16
-  type: code
-  badge: "Coming soon"
-  title: "PyBondLab new version"
-  link: /data-code/
 
 # Add new items at the top

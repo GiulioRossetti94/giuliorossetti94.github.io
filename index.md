@@ -12,6 +12,8 @@ I completed a PhD in Finance and Econometrics at the University of Warwick -- WB
 
 My research lies at the intersection of financial econometrics and asset pricing, with a particular focus on asset returns.
 
+**I will be on the 2026-2027 job market.**
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
