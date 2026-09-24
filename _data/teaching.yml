@@ -3,62 +3,12 @@
 # To add a new week: copy a week block and update the values
 
 current_courses:
-  - code: IB2B20
-    name: Financial Econometrics
-    level: BSc
-    term: Spring 2026
-    description: "Weekly seminar materials for Financial Econometrics"
-    weeks:
-      - week: 1
-        topics:
-          - name: Primer in Matrix Algebra
-            slides: matrixalgebra.pdf
-            # annotated: matrixalgebra_annotated.pdf
-          - name: Seminar 1
-            slides: week1_GR.pdf
-            annotated: week1_GR_annot.pdf
-
-      - week: 2
-        topics:
-          - name: Seminar 2
-            slides: week2_GR.pdf
-            annotated: week2_GR_annot.pdf
-      
-      - week: 3
-        topics:
-          - name: Seminar 3
-            slides: week3_GR.pdf 
-            annotated: week3_GR_annot.pdf
-
-      - week: 4
-        topics:
-          - name: Seminar 4
-            slides: week4_GR.pdf
-            annotated: week4_GR_annot.pdf
-
-      - week: 5
-        topics:
-          - name: Seminar 5
-            slides: week5_GR.pdf
-            annotated: week5_GR_annot.pdf     
-
-      - week: 7
-        topics:
-          - name: Seminar 7
-            slides: week7_GR.pdf
-            annotated: week7_GR_annot.pdf   
-
-      - week: 8
-        topics:
-          - name: Seminar 8
-            slides: week8_GR.pdf
-            annotated: week8_GR_annot.pdf  
-
-      - week: 9
-        topics:
-          - name: Seminar 9
-            slides: week9_GR.pdf
-            annotated: week9_GR_annot.pdf  
+  - code: IB9X60
+    name: Quantitative Methods for Finance
+    level: MSc
+    term: 2026/27
+    description: "Seminar materials for Quantitative Methods for Finance"
+    weeks: []
 
 past_teaching:
   - year: 2026

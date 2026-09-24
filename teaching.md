@@ -2,8 +2,8 @@
 layout: default
 title: Teaching
 permalink: /teaching/
-description: "Teaching experience and course materials by Giulio Rossetti at University of Warwick, including Financial Econometrics, Matrix Algebra, and Statistical Methods."
-keywords: "teaching, university of warwick, financial econometrics, matrix algebra, statistical methods, course materials"
+description: "Teaching experience and course materials by Giulio Rossetti at University of Warwick, including Quantitative Methods for Finance and Financial Econometrics."
+keywords: "teaching, university of warwick, quantitative methods for finance, financial econometrics, matrix algebra, statistical methods, course materials"
 ---
 
 {% if site.data.teaching.current_courses and site.data.teaching.current_courses.size > 0 %}
