@@ -22,7 +22,6 @@ description: "Working papers by Giulio Rossetti in financial econometrics and as
     <p itemprop="abstract">Corporate bond factor research faces a replication crisis. The crisis stems from two sources that inflate reported factor premia: transaction prices whose measurement error enters both sorting signals and return denominators, creating a correlated errors-in-variables bias, and asymmetric ex-post return filtering that embeds future information into factor construction. Applying our framework to a "factor zoo" of 108 signals across nine thematic clusters, we show that the majority of previously documented factors do not produce statistically significant bond CAPM alphas after correction. We provide an open source framework via <a href="https://openbondassetpricing.com" target="_blank">Open Bond Asset Pricing</a>, including error-corrected TRACE data, bias-corrected factors, and software for reproducible research.</p>
     <p><em>Keywords:</em> <span itemprop="keywords">Corporate bond factors; Open source; Factor zoo; Replication crisis; Measurement error; Look-ahead bias; Non-standard errors</span>.</p>
     <p><em>JEL Classification:</em> C12; C13; C58; G11; G12.</p>
-    <p><em>Note:</em> An earlier version of this paper circulated under the title "Common Pitfalls in the Evaluation of Corporate Bond Strategies."</p>
   </details>
 </div>
 
