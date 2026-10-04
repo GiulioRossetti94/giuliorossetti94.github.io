@@ -2,10 +2,23 @@
 layout: default
 title: Research
 permalink: /research/
-description: "Working papers by Giulio Rossetti in financial econometrics and asset pricing, including The Corporate Bond Factor Replication Crisis (Dickerson, Robotti, Rossetti, 2026)."
+description: "Working papers by Giulio Rossetti in financial econometrics and asset pricing, including the job market paper Sorting Bonds, Finding Issuers: What Corporate Bond Factors Trade and The Corporate Bond Factor Replication Crisis (Dickerson, Robotti, Rossetti, 2026)."
 ---
 
 # Working Papers
+
+<div class="paper-card" itemscope itemtype="https://schema.org/ScholarlyArticle">
+  <meta itemprop="inLanguage" content="en">
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Giulio Rossetti"></span>
+  <h3 class="paper-title">
+    <span itemprop="name headline">Sorting Bonds, Finding Issuers: What Corporate Bond Factors Trade</span>
+    <span class="latest-badge">Job Market Paper</span>
+  </h3>
+  <!-- When the draft is ready: upload it to assets/pdf/ and replace the line below with
+       <p class="paper-authors">[<a href="/assets/pdf/rossetti-sorting-bonds-finding-issuers.pdf" target="_blank">PDF</a>]</p>
+       and add a <details class="paper-abstract" open> block with the abstract, as in the cards below. -->
+  <p class="paper-authors">Draft coming soon</p>
+</div>
 
 <div class="paper-card" itemscope itemtype="https://schema.org/ScholarlyArticle">
   <meta itemprop="datePublished" content="2026-04">
