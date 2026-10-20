@@ -6,6 +6,7 @@
 #   type: paper | teaching | code | talk | other (required)
 #   title: Short description (required)
 #   link: URL or path (required)
+#   badge: Short label shown before the title (optional)
 #   pin: true (optional - keeps item visible forever)
 #
 # Example:
@@ -14,6 +15,19 @@
 #   title: "New working paper on corporate bonds"
 #   link: /research/
 #   pin: true
+
+- date: 2026-10-15
+  type: paper
+  badge: "Job Market Paper"
+  title: "Sorting Bonds, Finding Issuers: What Corporate Bond Factors Trade"
+  link: /research/
+  pin: true
+
+- date: 2026-10-15
+  type: paper
+  badge: "Submitted"
+  title: "Misspecification and Weak Identification in the Nontraded Factor Zoo"
+  link: /research/
 
 - date: 2026-09-24
   type: code
@@ -27,11 +41,5 @@
   title: "The Corporate Bond Factor Replication Crisis (Dickerson, Robotti, Rossetti)"
   link: /assets/pdf/dickerson-robotti-rossetti-corporate-bond-factor-replication-crisis.pdf
   pin: true
-
-- date: 2026-03-13
-  type: paper
-  badge: "New version"
-  title: "Misspecification and Weak Identification in the Nontraded Factor Zoo"
-  link: /research/
 
 # Add new items at the top

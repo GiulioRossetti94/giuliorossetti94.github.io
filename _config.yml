@@ -19,12 +19,12 @@ twitter:
 social:
   name: Giulio Rossetti
   links:
+    - https://scholar.google.com/citations?user=4gIVy_EAAAAJ&hl=en
     - https://github.com/GiulioRossetti94
     - https://linkedin.com/in/rossettigiulio
     - https://x.com/gi_r94
     - https://www.wbs.ac.uk/about/person/giuliorossetti-/
-    # TODO: add your Google Scholar, ORCID, and SSRN author URLs below
-    # - https://scholar.google.com/citations?user=YOUR_ID
+    # TODO: add your ORCID and SSRN author URLs below
     # - https://orcid.org/YOUR_ID
     # - https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=YOUR_ID
 

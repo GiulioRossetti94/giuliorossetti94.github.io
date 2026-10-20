@@ -41,6 +41,7 @@ My research lies at the intersection of financial econometrics and asset pricing
   "url": "https://giuliorossetti94.github.io",
   "image": "https://giuliorossetti94.github.io/assets/img/GRround.png",
   "sameAs": [
+    "https://scholar.google.com/citations?user=4gIVy_EAAAAJ&hl=en",
     "https://github.com/GiulioRossetti94",
     "https://linkedin.com/in/rossettigiulio",
     "https://x.com/gi_r94",

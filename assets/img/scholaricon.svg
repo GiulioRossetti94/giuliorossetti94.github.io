@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Google Scholar">
+  <circle cx="256" cy="256" r="256" fill="#0d0d0d"/>
+  <!-- mortarboard top (board) -->
+  <polygon points="256,128 440,196 256,264 72,196" fill="#ffffff"/>
+  <!-- head band / cap base -->
+  <path d="M158 224 L158 300 C158 330 354 330 354 300 L354 224 L256 262 Z" fill="#ffffff"/>
+  <!-- tassel -->
+  <line x1="440" y1="196" x2="440" y2="316" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="440" cy="330" r="18" fill="#ffffff"/>
+</svg>
