@@ -8,16 +8,20 @@ description: "Working papers by Giulio Rossetti in financial econometrics and as
 # Working Papers
 
 <div class="paper-card" itemscope itemtype="https://schema.org/ScholarlyArticle">
+  <meta itemprop="datePublished" content="2026-11">
   <meta itemprop="inLanguage" content="en">
   <span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Giulio Rossetti"></span>
   <h3 class="paper-title">
-    <span itemprop="name headline">Sorting Bonds, Finding Issuers: What Corporate Bond Factors Trade</span>
+    <a href="/assets/pdf/rossetti-sorting-bonds-finding-issuers.pdf" target="_blank" itemprop="url"><span itemprop="name headline">Sorting Bonds, Finding Issuers: What Corporate Bond Factors Trade</span></a>
     <span class="latest-badge">Job Market Paper</span>
   </h3>
-  <!-- When the draft is ready: upload it to assets/pdf/ and replace the line below with
-       <p class="paper-authors">[<a href="/assets/pdf/rossetti-sorting-bonds-finding-issuers.pdf" target="_blank">PDF</a>]</p>
-       and add a <details class="paper-abstract" open> block with the abstract, as in the cards below. -->
-  <p class="paper-authors">Draft coming soon</p>
+  <p class="paper-authors">[<a href="/assets/pdf/rossetti-sorting-bonds-finding-issuers.pdf" target="_blank">PDF</a>]</p>
+  <details class="paper-abstract" open>
+    <summary>Abstract</summary>
+    <p itemprop="abstract">Conventional corporate bond factors combine positions across issuers with relative positions among bonds of the same issuer. We decompose the original holdings of 20 characteristic-sorted portfolios into these two positions and examine how this distinction affects factor premia, return predictability, and asset pricing tests. We find that conventional factor premia largely reflect issuer positions, which generate substantial common return variation beyond their exposure to the bond market, while conventional portfolios capture little of the within-issuer return predictability embedded in their sorting characteristics. Five of the 20 within-issuer components have significant alphas relative to the bond market factor, even though their corresponding original portfolios do not. Our findings show that conventional bond factors can conceal pricing errors while providing overlapping issuer exposures as test assets, highlighting the importance of accounting for issuer structure in corporate bond asset pricing research.</p>
+    <p><em>Keywords:</em> <span itemprop="keywords">Corporate bond factors; characteristic-sorted portfolios; issuer selection; within-issuer variation; return predictability; test assets</span>.</p>
+    <p><em>JEL Classification:</em> G11; G12; C58.</p>
+  </details>
 </div>
 
 <div class="paper-card" itemscope itemtype="https://schema.org/ScholarlyArticle">
