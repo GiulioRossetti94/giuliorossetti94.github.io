@@ -31,7 +31,7 @@ description: "Working papers by Giulio Rossetti in financial econometrics and as
   <span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Cesare Robotti"></span>
   <span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Giulio Rossetti"></span>
   <h3 class="paper-title">
-    <a href="/assets/pdf/dickerson-robotti-rossetti-corporate-bond-factor-replication-crisis.pdf" target="_blank" itemprop="url"><span itemprop="name headline">The Corporate Bond Factor Replication Crisis</span></a>, R&amp;R
+    <a href="/assets/pdf/dickerson-robotti-rossetti-corporate-bond-factor-replication-crisis.pdf" target="_blank" itemprop="url"><span itemprop="name headline">The Corporate Bond Factor Replication Crisis</span></a>, R&amp;R at <em>Management Science</em>
   </h3>
   <p class="paper-authors">with <a href="https://www.alexdickerson.com/home">Alex Dickerson</a> and <a href="https://cesarerobotti.com">Cesare Robotti</a> — April 2026 [<a href="/assets/pdf/dickerson-robotti-rossetti-corporate-bond-factor-replication-crisis.pdf" target="_blank">PDF</a>] [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4575879" target="_blank">SSRN</a>] [<a href="https://openbondassetpricing.com" target="_blank">Open Bond Asset Pricing</a>]</p>
   <details class="paper-abstract" open>
